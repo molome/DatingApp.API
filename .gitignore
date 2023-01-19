@@ -367,3 +367,5 @@ FodyWeavers.xsd
 # User Added file
 appsettings.json
 appsettings.Development.json
+/DatingApp.API/appsettings.json
+/DatingApp.API/appsettings.Development.json

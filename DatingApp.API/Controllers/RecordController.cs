@@ -15,6 +15,7 @@ namespace DatingApp.API.Controllers
             _db = db;
         }
 
+        [AllowAnonymous]
         [HttpGet]
         public IActionResult Get()
         {

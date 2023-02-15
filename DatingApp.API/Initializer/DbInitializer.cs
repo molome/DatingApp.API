@@ -23,6 +23,7 @@ namespace DatingAppPractice1.Initializer
                     var query = "insert into [dbo].[Records] values('Value 101'),('Value 102'),('Value 103')";
                     await conn.QueryAsync(query);
                 }
+                conn.Close();
             }
         }
     }

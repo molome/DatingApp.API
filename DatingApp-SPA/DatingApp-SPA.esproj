@@ -11,7 +11,9 @@
     <BuildOutputFolder>$(MSBuildProjectDirectory)\dist\DatingApp-SPA</BuildOutputFolder>
   </PropertyGroup>
   <ItemGroup>
+    <Folder Include="src\app\_resolvers\" />
     <Folder Include="src\app\_guards\" />
+    <Folder Include="src\app\_models\" />
     <Folder Include="src\app\_Services\" />
   </ItemGroup>
 </Project>
